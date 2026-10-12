@@ -29,10 +29,10 @@ def even_odd_check(number):
 while True:
     # 1. Get inputs safely
     try:
-        a = float(input("Enter the first number: "))
-        b = float(input("Enter the second number: "))
+        a = float(input("Enter the first number : "))
+        b = float(input("Enter the second number : "))
     except ValueError:
-        print("Invalid input. Please enter numeric values.")
+        print("Invalid input.Please enter numeric values.")
         continue  # Restarts the loop to ask for numbers again
 
     operation = input("Enter the operation (+, -, *, /, %): ")
